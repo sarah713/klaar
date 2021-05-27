@@ -12,7 +12,7 @@ const Pagination = ({ banksperPage, totalBanks,paginate,prevPage,nextPage }) => 
                     <a className="page-link" href='#' onClick={()=>prevPage()}>Previous</a>
                 </li>
                 {pageNumbers.map(num => (
-                    <li key={num} className='page-item' aria-colcount={10}>
+                    <li key={num} className='page-item' >
                         <a onClick={()=>paginate(num)} href='!#' className='page-link'  >
                             {num}
                         </a>

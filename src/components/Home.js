@@ -11,7 +11,7 @@ function Home() {
   const [banks, setBanks] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [banksperPage, setBanksperPage] = useState(150);
-const [open,setOpen]=useState(false);
+
 
     useEffect(() => {
         console.log(banks)

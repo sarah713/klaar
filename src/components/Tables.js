@@ -2,7 +2,6 @@ import { Snackbar } from '@material-ui/core';
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { addFav } from '../app/FavoriteSlice';
-import { store } from '../app/store';
 import { Alert} from '@material-ui/lab';
 
 

@@ -1,8 +1,6 @@
-import React,{ useEffect, useState } from 'react';
+import React,{  } from 'react';
 import './App.css';
-import Tables from './components/Tables';
-import Pagination from './components/Pagination';
-import {BrowserRouter as Router,Link, Route,Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import Favorites from './components/Favorites';
 import Home from './components/Home';
 
